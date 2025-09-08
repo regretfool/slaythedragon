@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://dxe3ami7r2agg"]
+[gd_scene load_steps=2 format=3 uid="uid://dxe3ami7r2agg"]
+
+[ext_resource type="PackedScene" uid="uid://c8cupct6vj4qf" path="res://Assets/Scenes/player.tscn" id="1_skivu"]
 
 [node name="Root" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_skivu")]
+position = Vector2(335, 229)

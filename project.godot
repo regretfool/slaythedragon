@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="SlayTheDragon"
-run/main_scene="uid://c8cupct6vj4qf"
+run/main_scene="uid://dxe3ami7r2agg"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Assets/Art/icon.svg"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=480
 
 [input]
 

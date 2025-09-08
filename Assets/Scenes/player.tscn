@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://c8cupct6vj4qf"]
 
-[ext_resource type="Texture2D" uid="uid://scbohevw3lfr" path="res://Assets/Art/cat.png" id="1_6cd4h"]
 [ext_resource type="Script" uid="uid://vy8bf25n0a47" path="res://Assets/Scripts/player.gd" id="1_7dd06"]
+[ext_resource type="Texture2D" uid="uid://dl1swk600l2cw" path="res://Assets/Art/priest.png" id="2_7dd06"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7dd06"]
 radius = 4.0
@@ -11,7 +11,7 @@ height = 10.0
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_6cd4h")
+"texture": ExtResource("2_7dd06")
 }],
 "loop": true,
 "name": &"default",
