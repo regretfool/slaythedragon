@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl1swk600l2cw"
-path="res://.godot/imported/priest.png-0c1c7b00f65bccfd6f03e2fc47c0e732.ctex"
+uid="uid://d26ri8g81wlq2"
+path="res://.godot/imported/8bit archer.png-f9d2c361307b51927eedf95e5839e048.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/priest.png"
-dest_files=["res://.godot/imported/priest.png-0c1c7b00f65bccfd6f03e2fc47c0e732.ctex"]
+source_file="res://Assets/Art/8bit archer.png"
+dest_files=["res://.godot/imported/8bit archer.png-f9d2c361307b51927eedf95e5839e048.ctex"]
 
 [params]
 

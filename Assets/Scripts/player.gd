@@ -1,5 +1,8 @@
 extends CharacterBody2D
 
+# @export - changeable setting in node inspector
+# How fast player will move in pixels/sec
+@export var speed: float = 400.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
