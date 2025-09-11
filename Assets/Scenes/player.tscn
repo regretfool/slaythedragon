@@ -1,10 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://c8cupct6vj4qf"]
 
 [ext_resource type="Script" uid="uid://vy8bf25n0a47" path="res://Assets/Scripts/player.gd" id="1_7dd06"]
-[ext_resource type="Texture2D" uid="uid://dl1swk600l2cw" path="res://Assets/Art/priest.png" id="2_7dd06"]
+[ext_resource type="Texture2D" uid="uid://ckrfqev657jdw" path="res://Assets/Art/8bit priest.png" id="2_7dd06"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7dd06"]
-radius = 4.0
+radius = 3.0
 height = 10.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_38rej"]
@@ -19,9 +19,11 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D"]
+scale = Vector2(5, 5)
 script = ExtResource("1_7dd06")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
 shape = SubResource("CapsuleShape2D_7dd06")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

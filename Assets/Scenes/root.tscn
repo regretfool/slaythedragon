@@ -5,4 +5,4 @@
 [node name="Root" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_skivu")]
-position = Vector2(335, 229)
+position = Vector2(42, 38)
